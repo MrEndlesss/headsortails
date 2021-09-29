@@ -1,0 +1,16 @@
+import random
+
+coin = ["heads", "tails"]
+
+text = input("heads or tails?:")
+result = random.choice(coin)
+
+while True:
+    if text == result:
+        print("Right:", result)
+        break
+    elif text != result:
+        print("wrong:", result)
+        break
+    else:
+        print("only heads or tails")
