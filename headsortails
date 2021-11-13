@@ -7,10 +7,10 @@ result = random.choice(coin)
 
 while True:
     if text == result:
-        print("Right:", result)
+        print("'" + result + "'" + " Your side")
         break
     elif text != result:
-        print("wrong:", result)
+        print("'" + result + "'" + " not your side")
         break
     else:
         print("only heads or tails")
